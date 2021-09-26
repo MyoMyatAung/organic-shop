@@ -1,0 +1,16 @@
+.ContactUsHeader{
+    background-color: #EFEFEF;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.ContactUsAddress{
+    margin: 16px 0px;
+}
+
+.ContactTextField{
+    margin: 12px 0px;
+}

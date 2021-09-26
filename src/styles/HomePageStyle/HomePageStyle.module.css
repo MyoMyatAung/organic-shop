@@ -1,0 +1,38 @@
+.Home_Categories {}
+
+.Categories_title {
+    text-align: center;
+    margin: 24px 0px;
+    font-family: sans-serif;
+}
+
+.Category_Item_Card {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: stretch;
+    margin: 8px;
+    border-radius: 8px;
+}
+
+.Category_Item_Media {
+    padding-top: '56.25%';
+}
+
+.Category_Item_Overlay {
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    font-family: sans-serif;
+    height: 50px;
+    display: flex;
+    width: 100%;
+    font-weight: 700;
+    padding-left: 12px;
+    align-items: center;
+    border-radius: 4px;
+}
+

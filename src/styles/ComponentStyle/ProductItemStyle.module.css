@@ -1,0 +1,38 @@
+.ProductWrapper {
+    margin: 8px;
+    padding: 4px;
+}
+
+.ProductImage {
+    border-radius: 8px;
+}
+
+.ProductTitle {
+    text-align: center;
+    font-weight: 500;
+    margin: 8px 0px;
+}
+
+.ProductSubTitle {
+    text-align: center;
+    font-weight: 500;
+    margin: 8px 0px;
+    color: grey;
+}
+
+.ProductAction {
+    display: flex;
+    justify-content: center;
+}
+
+.ProductActionButton {
+    margin: 0px 4px;
+}
+
+.ProductDivider {
+    width: 80%;
+}
+
+a{
+    text-decoration: none;
+}

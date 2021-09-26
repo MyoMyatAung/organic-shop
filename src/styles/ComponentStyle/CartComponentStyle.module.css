@@ -1,0 +1,8 @@
+.CartProductImage {
+    border-radius: 8px;
+}
+
+.CartCheckoutText {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,17 @@
+.CartHeader{
+    background-color: #EFEFEF;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.CartProductImage{
+    border-radius: 8px;
+}
+
+.CartCheckoutText{
+    display: flex;
+    justify-content: space-between;
+}

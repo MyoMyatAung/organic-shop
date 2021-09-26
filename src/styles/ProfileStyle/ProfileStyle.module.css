@@ -1,0 +1,21 @@
+.ProfileImage {
+    border-radius: 5px;
+    border: 1px solid rgb(214, 214, 214);
+}
+
+.ProfileNameHeader{
+    border-left: 8px solid rgb(214, 214, 214);
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.ProfileData {
+    display: flex;
+    align-items: center;
+    margin: 18px 0px;
+}
+
+.RecentProduct{
+    text-align: center;
+}

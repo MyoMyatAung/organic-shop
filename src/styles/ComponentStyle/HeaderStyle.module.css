@@ -1,0 +1,19 @@
+.AppBar{
+    background-color: white;
+}
+
+.Logo1 {
+    color: lightgreen;
+    font-weight: 500;
+}
+
+.Logo2 {
+    color: black;
+    font-weight: 500;
+}
+
+.LinkItem {
+    text-decoration: none;
+    margin: 0px 8px;
+    color: grey;
+}
