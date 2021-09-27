@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/organic-shop/static/css/main.39dc7ef2.chunk.css",
+    "main.js": "/organic-shop/static/js/main.493515c7.chunk.js",
+    "main.js.map": "/organic-shop/static/js/main.493515c7.chunk.js.map",
+    "runtime-main.js": "/organic-shop/static/js/runtime-main.fd64810d.js",
+    "runtime-main.js.map": "/organic-shop/static/js/runtime-main.fd64810d.js.map",
+    "static/js/2.3eb2cce6.chunk.js": "/organic-shop/static/js/2.3eb2cce6.chunk.js",
+    "static/js/2.3eb2cce6.chunk.js.map": "/organic-shop/static/js/2.3eb2cce6.chunk.js.map",
+    "static/js/3.d9d1213f.chunk.js": "/organic-shop/static/js/3.d9d1213f.chunk.js",
+    "static/js/3.d9d1213f.chunk.js.map": "/organic-shop/static/js/3.d9d1213f.chunk.js.map",
+    "index.html": "/organic-shop/index.html",
+    "static/css/main.39dc7ef2.chunk.css.map": "/organic-shop/static/css/main.39dc7ef2.chunk.css.map",
+    "static/js/2.3eb2cce6.chunk.js.LICENSE.txt": "/organic-shop/static/js/2.3eb2cce6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fd64810d.js",
+    "static/js/2.3eb2cce6.chunk.js",
+    "static/css/main.39dc7ef2.chunk.css",
+    "static/js/main.493515c7.chunk.js"
+  ]
+}
