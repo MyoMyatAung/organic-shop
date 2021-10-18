@@ -14,7 +14,7 @@ const FooterComponent = () => {
             <div className={styles.FooterTop}>
                 <Container>
                     <Grid container spacing={2}>
-                        <Grid item xs={3}>
+                        <Grid item sm={6} md={3}>
                             <Typography
                                 variant="h6"
                                 className={styles.FooterItemTitle}
@@ -35,7 +35,7 @@ const FooterComponent = () => {
                                 </ul>
                             </div>
                         </Grid>
-                        <Grid item xs={3}>
+                        <Grid item sm={6} md={3}>
                             <Typography
                                 variant="h6"
                                 className={styles.FooterItemTitle}
@@ -52,7 +52,7 @@ const FooterComponent = () => {
                                 </ul>
                             </div>
                         </Grid>
-                        <Grid item xs={3}>
+                        <Grid item sm={6} md={3}>
                             <Typography
                                 variant="h6"
                                 className={styles.FooterItemTitle}
@@ -69,7 +69,7 @@ const FooterComponent = () => {
                                 </ul>
                             </div>
                         </Grid>
-                        <Grid item xs={3}>
+                        <Grid item sm={6} md={3}>
 
                             <Typography
                                 variant="h6"
