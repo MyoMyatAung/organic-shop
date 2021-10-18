@@ -7,16 +7,14 @@ import {
     Container
 } from '@mui/material';
 
-import { Favorite } from '../../components'
+import { Common, Favorite } from '../../components'
 
 import { products } from '../../data/products';
 
 export default () => {
     return (
         <>
-            <div className={styles.FavoriteHeader}>
-                <h1>Favorite</h1>
-            </div>
+            <Common.PageHeaderComponent title="Favorite Products" />
             <Container>
                 <Favorite.FavoriteListComponent products={products} />
             </Container>

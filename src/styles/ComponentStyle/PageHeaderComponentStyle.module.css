@@ -1,0 +1,8 @@
+.PageHeader{
+     background-color: #DDD;
+     height: 100px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 24px;
+ }

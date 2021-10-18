@@ -6,7 +6,7 @@ import {
 
 import { Common } from '../';
 
-const ProfileRecentViewComponent = ({ products }) => {
+const ProductDetailRelatedProductComponent = ({ products }) => {
     return (
         <Grid container>
             {
@@ -26,4 +26,4 @@ const ProfileRecentViewComponent = ({ products }) => {
     );
 }
 
-export default ProfileRecentViewComponent;
+export default ProductDetailRelatedProductComponent;

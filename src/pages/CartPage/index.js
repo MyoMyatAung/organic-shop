@@ -15,13 +15,13 @@ import {
 } from '@mui/material';
 
 import { CartProductList } from '../../components/common';
+import { Link } from 'react-router-dom';
+import { Common } from '../../components';
 
 export default () => {
     return (
         <>
-            <div className={styles.CartHeader}>
-                <h1>Shopping Cart</h1>
-            </div>
+            <Common.PageHeaderComponent title='Shopping Cart' />
             <Container sx={{ marginY: 6 }}>
                 <Grid container spacing={1}>
                     <Grid item md={8}>
@@ -90,14 +90,16 @@ export default () => {
                                     $93
                                 </Typography>
                             </div>
-                            <Button
-                                color='info'
-                                variant='contained'
-                                fullWidth
-                                sx={{ marginY: 2 }}
-                            >
-                                Go to checkout
-                            </Button>
+                            <Link to="/checkout">
+                                <Button
+                                    color='info'
+                                    variant='contained'
+                                    fullWidth
+                                    sx={{ marginY: 2 }}
+                                >
+                                    Go to checkout
+                                </Button>
+                            </Link>
                         </Paper>
                         <Paper sx={{ marginY: 2, padding: 2 }}>
                             <Typography

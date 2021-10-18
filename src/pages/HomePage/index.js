@@ -16,20 +16,7 @@ import { Home } from '../../components/';
 
 
 export default () => {
-    // const items = [
-    //     {
-    //         name: 'Organic vegetables and delivery straight to your door',
-    //         image_url: "https://cdn.pixabay.com/photo/2017/10/02/21/56/garlic-2810491__340.jpg"
-    //     },
-    //     {
-    //         name: 'Simple and healthy recipes from seasonal products',
-    //         image_url: "https://cdn.pixabay.com/photo/2015/10/12/14/53/apples-983942__340.jpg"
-    //     },
-    //     {
-    //         name: 'Organic vegetables and delivery straight to your door',
-    //         image_url: "https://cdn.pixabay.com/photo/2021/04/09/22/03/strawberries-6165597__340.jpg"
-    //     }
-    // ];
+
     return (
         <div>
 

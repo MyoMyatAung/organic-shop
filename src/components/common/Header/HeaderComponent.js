@@ -36,10 +36,14 @@ const HeaderComponent = () => {
 
     return (
         <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="static" className={styles.AppBar}>
+            <AppBar
+                position="static"
+                className={styles.AppBar}
+                elevation={1}
+            >
                 <Toolbar>
-                    <Link to='/'>
-                        <div style={{display: 'flex'}}>
+                    <Link to='/organic-shop'>
+                        <div style={{ display: 'flex' }}>
                             <Typography
                                 variant="h6"
                                 className={styles.Logo1}>

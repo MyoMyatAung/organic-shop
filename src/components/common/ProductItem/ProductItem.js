@@ -1,7 +1,7 @@
 import React from 'react';
 
 import {
-    Button
+    Button, Divider
 } from '@mui/material';
 
 import {
@@ -45,6 +45,7 @@ const ProductItem = ({ product }) => {
                     color="info"
                     className={styles.ProductActionButton}
                     sx={{marginX: 1}}
+                    size="small"
                 >
                     <AddShoppingCartIcon />
                 </Button>
@@ -53,6 +54,7 @@ const ProductItem = ({ product }) => {
                     color="secondary"
                     className={styles.ProductActionButton}
                     sx={{marginX: 1}}
+                    size="small"
                 >
                     <InfoIcon /> Detail
                 </Button>
@@ -61,6 +63,7 @@ const ProductItem = ({ product }) => {
                     color="error"
                     className={styles.ProductActionButton}
                     sx={{marginX: 1}}
+                    size="small"
                 >
                     <FavoriteBorderIcon />
                 </Button>

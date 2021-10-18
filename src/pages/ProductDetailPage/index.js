@@ -23,6 +23,8 @@ import { useParams } from 'react-router-dom';
 
 import * as styles from '../../styles/ProductDetailStyle/ProductDetailStyle.module.css';
 
+import { Common, ProductDetail } from '../../components'
+
 export default () => {
 
     const { id } = useParams();
@@ -31,9 +33,7 @@ export default () => {
 
     return (
         <>
-            <div className={styles.ProductDetailHeader}>
-                <h1>Product</h1>
-            </div>
+            <Common.PageHeaderComponent title="Product Detail" />
             <Container>
                 <Grid container>
                     <Grid item md={4}>
@@ -182,7 +182,7 @@ export default () => {
                         </ButtonGroup>
                         <div className={styles.ProductDetailAction}>
                             <Button
-                                color="info"
+                                color="warning"
                                 variant="contained"
                                 sx={{
                                     marginRight: 1
@@ -192,7 +192,7 @@ export default () => {
                             </Button>
                             <Button
                                 variant="contained"
-                                color="secondary"
+                                color="info"
                                 startIcon={<AddShoppingCartIcon />}
                                 sx={{
                                     marginRight: 1
@@ -203,6 +203,15 @@ export default () => {
                         </div>
                     </Grid>
                 </Grid>
+                <hr />
+                <div style={{ margin: '24px 12px' }}>
+                    <h1
+                        className={styles.Categories_title}
+                    >
+                        Related Products
+                    </h1>
+                    <ProductDetail.ProductDetailRelatedProductComponent products={products} />
+                </div>
             </Container>
         </>
     );

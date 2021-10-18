@@ -10,7 +10,7 @@ import { products } from '../../data/products';
 
 import * as styles from '../../styles/ShopPageStyle/ShopPageStyle.module.css';
 
-import { Shop } from '../../components';
+import { Common, Shop } from '../../components';
 
 const sorts = [
     {
@@ -47,9 +47,7 @@ export default () => {
     };
     return (
         <div>
-            <div className={styles.ShopHeader}>
-                <h1>Shop</h1>
-            </div>
+            <Common.PageHeaderComponent title="Shop"/>
             <Container>
                 <Grid container>
                     <Grid

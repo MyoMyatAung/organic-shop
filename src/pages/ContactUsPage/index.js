@@ -14,13 +14,12 @@ import {
 } from '@mui/icons-material';
 
 import * as styles from '../../styles/ContactUsStyle/ContactUsStyle.module.css';
+import { Common } from '../../components';
 
 export default () => {
     return (
         <>
-            <div className={styles.ContactUsHeader}>
-                <h1>Contact Us</h1>
-            </div>
+            <Common.PageHeaderComponent title="Contact Us" />
             <Container>
                 <Grid container>
                     <Grid
