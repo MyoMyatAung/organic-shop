@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/organic-shop/static/css/main.723e64c4.chunk.css",
-    "main.js": "/organic-shop/static/js/main.bb212baf.chunk.js",
-    "main.js.map": "/organic-shop/static/js/main.bb212baf.chunk.js.map",
+    "main.js": "/organic-shop/static/js/main.6df8fb33.chunk.js",
+    "main.js.map": "/organic-shop/static/js/main.6df8fb33.chunk.js.map",
     "runtime-main.js": "/organic-shop/static/js/runtime-main.e87be90d.js",
     "runtime-main.js.map": "/organic-shop/static/js/runtime-main.e87be90d.js.map",
     "static/js/2.f600a7a0.chunk.js": "/organic-shop/static/js/2.f600a7a0.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e87be90d.js",
     "static/js/2.f600a7a0.chunk.js",
     "static/css/main.723e64c4.chunk.css",
-    "static/js/main.bb212baf.chunk.js"
+    "static/js/main.6df8fb33.chunk.js"
   ]
 }
