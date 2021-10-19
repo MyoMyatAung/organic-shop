@@ -22,6 +22,7 @@ export const ORDER_COLUMNS = [
                          src={product.image_url}
                          width={50}
                          style={{ margin: '0px 4px' }}
+                         alt={product.name}
                     />
                )
           }</>
@@ -53,7 +54,7 @@ export const CART_COLUMNS = [
           field: 'image_url',
           header: '',
           check: true,
-          content: (data) => <img src={data.image_url} width={100} />
+          content: (data) => <img src={data.image_url} width={100} alt={data.name} />
      },
      {
           field: '-',

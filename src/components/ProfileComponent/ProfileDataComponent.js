@@ -4,7 +4,6 @@ import React from 'react';
 import {
      Email as EmailIcon,
      Phone as PhoneIcon,
-     LocationCity as LocationCityIcon,
 } from '@mui/icons-material';
 
 const ProfileDataComponent = ({ data, style }) => {

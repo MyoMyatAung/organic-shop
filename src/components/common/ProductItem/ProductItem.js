@@ -1,7 +1,7 @@
 import React from 'react';
 
 import {
-    Button, Divider
+    Button,
 } from '@mui/material';
 
 import {

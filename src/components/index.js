@@ -5,6 +5,7 @@ import * as Favorite from './FavoriteComponents';
 import * as Profile from './ProfileComponent';
 import * as ProductDetail from './ProductDetailComponents';
 import * as Checkout from './CheckoutComponents';
+import * as OrderDetail from './OrderDetailComponents';
 
 export {
     Common,
@@ -13,5 +14,6 @@ export {
     Favorite,
     Profile,
     ProductDetail,
-    Checkout
+    Checkout,
+    OrderDetail
 }

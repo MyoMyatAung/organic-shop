@@ -1,7 +1,5 @@
 import React from 'react';
 
-import * as styles from '../../styles/CheckoutStyle/CheckoutStyle.module.css';
-
 import { carts } from '../../data/carts';
 import { addressBooks } from '../../data/addressbook';
 import { Checkout, Common } from '../../components';

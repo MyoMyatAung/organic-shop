@@ -33,6 +33,7 @@ function App() {
               <Route path="/contact-us" exact component={page.ContactUsPage} />
               <Route path="/profile" exact component={page.ProfilePage} />
               <Route path="/checkout" exact component={page.CheckoutPage} />
+              <Route path="/order-detail/:id" exact component={page.OrderDetailPage} />
             </Switch>
           </main>
           <footer>

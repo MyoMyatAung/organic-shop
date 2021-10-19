@@ -6,6 +6,7 @@ import ProductDetailPage from './ProductDetailPage';
 import CartPage from './CartPage';
 import ProfilePage from './ProfilePage';
 import CheckoutPage from './CheckoutPage';
+import OrderDetailPage from './OrderDetailPage';
 
 export {
     HomePage,
@@ -15,5 +16,6 @@ export {
     ProductDetailPage,
     CartPage,
     ProfilePage,
-    CheckoutPage
+    CheckoutPage,
+    OrderDetailPage
 }
